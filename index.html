@@ -33,39 +33,7 @@
 
 <body>
 
-<a id="back-top" href="javascript:void(0)"><i class="icon-chevron-up"></i></a>
-
-<!-- header -->
-<header id="header">
-    <div class="container">
-        <div class="row-fluid">
-            <div class="span12">
-                <div class="navbar">
-                    <div class="navbar-inner">
-                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </a>
-
-                        <a class="brand" href="javascript:void(0)">
-                            <img src="img/logo.png" alt="" />
-                        </a>
-
-                        <div class="nav-collapse collapse">
-                            <ul class="nav pull-right" id="navigation">
-                                <li><a data-nav="scroll" href="index.html" class="active">HOME</a></li>
-                                <li><a data-nav="scroll" href="rooms.html">ROOMS</a></li>
-                                <li><a data-nav="scroll" href="gallery.html">GALLERY</a></li>
-                                <li><a data-nav="scroll" href="location.html">LOCATION</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+<header id="header"></header>
 
 <!-- hotel -->
 <section id="hotel" class="box">
@@ -212,18 +180,8 @@
 <div style="display: none;" id="lightbox"><img id="bigimg" src=""/></div>
 
 <p></p>
-<!-- start: Footer -->
-<footer>
-    <div class="container">
-        <div class="row-fluid footer-description">
-            <div class="span12 footer-content">
-                <div class="span6">The Charles Stewart Guesthouse, 5/6 Parnell Square, Dublin (Ireland)</div>
-                <div class="span6">Tel: +353 1 878 0350,Email: info@charlesstewart.ie</div>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- end: Footer -->
+
+<footer id="footer"></footer>
 
 
 <!-- scripts -->
@@ -254,7 +212,11 @@
 <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript" src="js/googlemaps.js"></script>
+<script type="text/javascript" src="js/underscore-min.js"></script>
 <script type="text/javascript" src="js/theme.js"></script>
+<script type="text/javascript">
+    setPage(1);
+</script>
 
 </body>
 
