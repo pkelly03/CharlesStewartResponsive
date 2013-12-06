@@ -28,6 +28,14 @@ readyState(function() {
         $("#footer").html(render('footer'));
     }
 
+    function appendVideo() {
+        if ($("#room-booking").length) {
+
+            $("#room-booking")
+                .after('<div id="video"><iframe src="http://player.vimeo.com/video/70110475" width="275" height="154" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>');
+        }
+    }
+
     /**
      * Hash helper
      */
@@ -86,6 +94,8 @@ readyState(function() {
     });
 
     renderTemplates();
+
+    appendVideo();
 
     $('#intro').fadeIn();
 
