@@ -68,7 +68,7 @@ readyState(function() {
         }
 
         if (!render.cache[templateName]) {
-            var templateDirectory = '/templates';
+            var templateDirectory = './templates';
             var templateUrl = templateDirectory + '/' + templateName + '.html';
             var templateContents;
             $.ajax({
