@@ -340,6 +340,11 @@ ul
     background-image: url('../img/logo.png');
 }
 
+.flexslider-wrapper {
+    width: 80%;
+}
+
+
 /**
  * Features
  */
