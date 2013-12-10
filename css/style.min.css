@@ -198,6 +198,15 @@ ul
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+#footer .facebook {
+    padding-right: 20px;
+}
+
+#footer .email {
+    padding-right: 20px;
+}
+
+
 /**
  * Intro
  */
@@ -343,7 +352,6 @@ ul
 .flexslider-wrapper {
     width: 80%;
 }
-
 
 /**
  * Features
